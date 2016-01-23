@@ -1,4 +1,9 @@
+.MenuIconGauche {
+    width: 40%;
+}
+
 .MenuAlignDroite {
-    text-align: center;
+    text-align: left;
     width: 100%;
 }
+
