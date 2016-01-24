@@ -1,244 +1,575 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
 	<meta charset="UTF-8">
 	<meta content="IE=edge" http-equiv="X-UA-Compatible">
 	<meta content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no, width=device-width" name="viewport">
 	<title>Eglise baptise chinoise de marne la vallée</title>
 
-	<!-- css -->
-	<link href="./css/base.css" rel="stylesheet">
+	<link rel="stylesheet" href="http://kendo.cdn.telerik.com/2016.1.112/styles/kendo.common.min.css"/>
+	<link rel="stylesheet" href="http://kendo.cdn.telerik.com/2016.1.112/styles/kendo.rtl.min.css"/>
+	<link rel="stylesheet" href="http://kendo.cdn.telerik.com/2016.1.112/styles/kendo.silver.min.css"/>
+	<link rel="stylesheet" href="http://kendo.cdn.telerik.com/2016.1.112/styles/kendo.mobile.all.min.css"/>
 
-	<!-- css for doc -->
-	<link href="./css/project.css" rel="stylesheet">
-	
-    <!-- css for kevin -->
-    <link href="./css/kevinBapteme.css" rel="stylesheet">
-    
-	<!-- favicon -->
-	<!-- ... -->
-</head>
-<body class="page-brand">
-	<header class="header header-transparent header-waterfall">
-		<ul class="nav nav-list pull-left">
-			<li>
-				<a data-toggle="menu" href="#doc_menu">
-					<span class="icon icon-lg">menu</span>
-				</a>
-			</li>
-		</ul>
-		<a class="header-logo margin-left-no" href="index.html">Baptème de Kevin LIM</a>
-		<ul class="nav nav-list pull-right">
-			<li class="dropdown margin-right">
-				<a class="dropdown-toggle padding-left-no padding-right-no" data-toggle="dropdown">
-					<span class="access-hide">Kevin LIM</span>
-					<span class="avatar avatar-sm"><img alt="alt text for John Smith avatar" src="./images/users/KevinSmall.jpg"></span>
-				</a>
-				<ul class="dropdown-menu">
-					<li>
-						<a class="padding-right-lg waves-attach" href="javascript:void(0)"><span class="icon icon-lg margin-right">account_box</span>Profile Settings</a>
-					</li>
-					<li>
-						<a class="padding-right-lg waves-attach" href="javascript:void(0)"><span class="icon icon-lg margin-right">add_to_photos</span>Upload Photo</a>
-					</li>
-					<li>
-						<a class="padding-right-lg waves-attach" href="page-login.html"><span class="icon icon-lg margin-right">exit_to_app</span>Logout</a>
-					</li>
-				</ul>
-			</li>
-		</ul>
-	</header>
-	<nav aria-hidden="true" class="menu" id="doc_menu" tabindex="-1">
-		<div class="menu-scroll">
-			<div class="menu-content">
-				<a class="menu-logo" href="index.html">Baptême de Kevin Lim</a>
-				<ul class="nav">
-					<li>
-						<a class="collaosed waves-attach" data-toggle="collapse" href="#doc_menu_components">Messages</a>
-						<ul class="collapse menu-collapse" id="doc_menu_components">
-                            <li>
-                                <a class="waves-attach" href="ui-button.html"> 
-                                    <table>
-                                        <tr>
-                                            <td class="MenuIconGauche">
-                                                <span class="avatar avatar-sm"><img src="./images/profils/CelineLIM.jpg"></span>
-                                            </td>
-                                            <td class="MenuAlignDroite">
-                                                <span>Celine LIM</span>
-                                            </td>
-                                        </tr>
-                                    </table>
-                                </a>
-							</li>
-							<li>
-								<a class="waves-attach" href="ui-button.html">Virginie SOK</a>
-							</li>
-							<li>
-								<a class="waves-attach" href="ui-button-fab.html">Mickael SOK</a>
-							</li>
-							<li>
-								<a class="waves-attach" href="ui-card.html">David SOK</a>
-							</li>
-							<li>
-								<a class="waves-attach" href="ui-data-table.html">Jessica SOK</a>
-							</li>
-							<li>
-								<a class="waves-attach" href="ui-dialog.html">Jonathan DONG</a>
-							</li>
-							<li>
-								<a class="waves-attach" href="ui-dropdown-menu.html">Anceline DONG</a>
-							</li>
-							<li>
-								<a class="waves-attach" href="ui-nav-drawer.html">Marlène DONG</a>
-							</li>
-							<li>
-								<a class="waves-attach" href="ui-picker.html">Jonathan TRAN</a>
-							</li>
-							<li>
-								<a class="waves-attach" href="ui-progress.html">Pascal TRAN</a>
-							</li>
-							<li>
-								<a class="waves-attach" href="ui-selection-control.html">Alexandre TRAN</a>
-							</li>
-							<li>
-								<a class="waves-attach" href="ui-snackbar.html">Jeremy NG</a>
-							</li>
-							<li>
-								<a class="waves-attach" href="ui-tab.html">Alex NG</a>
-							</li>
-						</ul>
-					</li>
-					<li>
-						<a class="collapsed waves-attach" data-toggle="collapse" href="#doc_menu_extras">Vidéos</a>
-						<ul class="collapse menu-collapse" id="doc_menu_extras">
-							<li>
-								<a class="waves-attach" href="ui-avatar.html">2010</a>
-							</li>
-							<li>
-								<a class="waves-attach" href="ui-icon.html">Noel 2005</a>
-							</li>
-						</ul>
-					</li>
-					<li>
-						<a class="collapsed waves-attach" data-toggle="collapse" href="#doc_menu_javascript">Trucs</a>
-						<ul class="collapse menu-collapse" id="doc_menu_javascript">
-							<li>
-								<a class="waves-attach" href="ui-affix.html">machin</a>
-							</li>
-						</ul>
-					</li>
-				</ul>
-			</div>
-		</div>
-	</nav>
-	<main class="content">
-		<div class="content-heading">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-6 col-lg-push-3 col-sm-10 col-sm-push-1">
-						<h1 class="heading">Eglise baptise chinoise de marne la vallée</h1>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-6 col-lg-push-3 col-sm-10 col-sm-push-1">
-					<section class="content-inner margin-top-no">
-						<div class="card">
-							<div class="card-main">
-								<div class="card-inner">
-									<p>Petit page pour toi Kevin ! Amuse toi à regarder ce que tout le monde t'as laissé comme message !</p>
-									<blockquote> Kevin ! </blockquote>
-									<p>Un espace rien que pour ton baptème !</p>
-								</div>
-							</div>
-						</div>
-						<h2 class="content-sub-heading">31 Janvier 2016</h2>
-						<p>Voici la liste de tous les messages laissés ! <small>(Tu pourras naviguer par le menu à gauche ensuite ^^)</small> </p>
-						<div class="tile-wrap">
-							<a class="tile waves-attach" href="ui-button.html">
-								<div class="tile-inner">
-                                    <table>
-                                        <tr>
-                                            <td class="MenuIconGauche">
-                                                <span class="avatar avatar-sm"><img src="./images/profils/CelineLIM.jpg"></span>
-                                            </td>
-                                            <td class="MenuAlignDroite">
-                                                <span>Celine LIM</span>
-                                            </td>
-                                        </tr>
-                                    </table>
-								</div>
-							</a>
-							<a class="tile waves-attach" href="ui-button-fab.html">
-								<div class="tile-inner">
-									<span>Virginie SOK</span>
-								</div>
-							</a>
-							<a class="tile waves-attach" href="ui-card.html">
-								<div class="tile-inner">
-									<span>Mickael SOK</span>
-								</div>
-							</a>
-							<a class="tile waves-attach" href="ui-data-table.html">
-								<div class="tile-inner">
-									<span>David SOK</span>
-								</div>
-							</a>
-							<a class="tile waves-attach" href="ui-dialog.html">
-								<div class="tile-inner">
-									<span>Jessica SOK</span>
-								</div>
-							</a>
-							<a class="tile waves-attach" href="ui-dropdown-menu.html">
-								<div class="tile-inner">
-									<span>Jonathan DONG</span>
-								</div>
-							</a>
-							<a class="tile waves-attach" href="ui-nav-drawer.html">
-								<div class="tile-inner">
-									<span>Anceline DONG</span>
-								</div>
-							</a>
-							<a class="tile waves-attach" href="ui-picker.html">
-								<div class="tile-inner">
-									<span>Marlène DONG</span>
-								</div>
-							</a>
-							<a class="tile waves-attach" href="ui-progress.html">
-								<div class="tile-inner">
-									<span>Jonathan TRAN</span>
-								</div>
-							</a>
-							<a class="tile waves-attach" href="ui-selection-control.html">
-								<div class="tile-inner">
-									<span>Pascal TRAN</span>
-								</div>
-							</a>
-							<a class="tile waves-attach" href="ui-snackbar.html">
-								<div class="tile-inner">
-									<span>Alexandre TRAN</span>
-								</div>
-							</a>
-							<a class="tile waves-attach" href="ui-tab.html">
-								<div class="tile-inner">
-									<span>Jeremy NG</span>
-								</div>
-							</a>
-							<a class="tile waves-attach" href="ui-text-field.html">
-								<div class="tile-inner">
-									<span>Alex NG</span>
-								</div>
-							</a>
-						</div>
-
-
+	<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+	<script src="http://kendo.cdn.telerik.com/2016.1.112/js/kendo.all.min.js"></script>
 	<!-- js -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	<script src="./js/base.min.js"></script>
 
 	<!-- js for doc -->
 	<script src="./js/project.min.js"></script>
+
+	<!-- css -->
+	<link href="./css/base.css" rel="stylesheet">
+
+	<!-- css for doc -->
+	<link href="./css/project.css" rel="stylesheet">
+
+	<!-- css for kevin -->
+	<link href="./css/kevinBapteme.css" rel="stylesheet">
+</head>
+
+<body class="page-brand">
+<header class="header header-transparent header-waterfall">
+	<ul class="nav nav-list pull-left">
+		<li>
+			<a data-toggle="menu" href="#doc_menu">
+				<span class="icon icon-lg">menu</span>
+			</a>
+		</li>
+	</ul>
+	<a class="header-logo margin-left-no" href="index.html">Baptème de Kevin LIM</a>
+	<ul class="nav nav-list pull-right">
+		<li class="dropdown margin-right">
+			<a class="dropdown-toggle padding-left-no padding-right-no" data-toggle="dropdown">
+				<span class="access-hide">Kevin LIM</span>
+				<span class="avatar avatar-sm"><img alt="alt text for John Smith avatar" src="./images/users/KevinSmall.jpg"></span>
+			</a>
+			<ul class="dropdown-menu">
+				<li>
+					<a class="padding-right-lg waves-attach" href="javascript:void(0)"><span class="icon icon-lg margin-right">account_box</span>Profile Settings</a>
+				</li>
+				<li>
+					<a class="padding-right-lg waves-attach" href="javascript:void(0)"><span class="icon icon-lg margin-right">add_to_photos</span>Upload Photo</a>
+				</li>
+				<li>
+					<a class="padding-right-lg waves-attach" href="page-login.html"><span class="icon icon-lg margin-right">exit_to_app</span>Logout</a>
+				</li>
+			</ul>
+		</li>
+	</ul>
+</header>
+<nav aria-hidden="true" class="menu" id="doc_menu" tabindex="-1">
+	<div class="menu-scroll">
+		<div class="menu-content">
+			<a class="menu-logo" href="index.html">Baptême de Kevin Lim</a>
+			<ul class="nav">
+				<li>
+					<a class="collaosed waves-attach" data-toggle="collapse" href="#doc_menu_components">Messages</a>
+					<ul class="collapse menu-collapse" id="doc_menu_components">
+						<li>
+							<a class="waves-attach" href="#/CelineLIM">
+								<table>
+									<tr>
+										<td class="MenuIconGauche">
+											<span class="avatar avatar-sm"><img src="./images/profils/CelineLIM.jpg"></span>
+										</td>
+										<td class="MenuAlignDroite">
+											<span>Celine LIM</span>
+										</td>
+									</tr>
+								</table>
+							</a>
+						</li>
+						<li>
+							<a class="waves-attach" href="#/AxelleLY">
+								<table>
+									<tr>
+										<td class="MenuIconGauche">
+											<span class="avatar avatar-sm"><img src="./images/profils/AxelleLY.jpg"></span>
+										</td>
+										<td class="MenuAlignDroite">
+											<span>Axelle LY</span>
+										</td>
+									</tr>
+								</table>
+							</a>
+						</li>
+						<li>
+							<a class="waves-attach" href="#/VirginieSOK">
+								<table>
+									<tr>
+										<td class="MenuIconGauche">
+											<span class="avatar avatar-sm"><img src="./images/profils/VirginieSOK.jpg"></span>
+										</td>
+										<td class="MenuAlignDroite">
+											<span>Vriginie SOK</span>
+										</td>
+									</tr>
+								</table>
+							</a>
+						</li>
+						<li>
+							<a class="waves-attach" href="ui-button-fab.html">Mickael SOK</a>
+						</li>
+						<li>
+							<a class="waves-attach" href="ui-card.html">David SOK</a>
+						</li>
+						<li>
+							<a class="waves-attach" href="ui-data-table.html">Jessica SOK</a>
+						</li>
+						<li>
+							<a class="waves-attach" href="ui-dialog.html">Jonathan DONG</a>
+						</li>
+						<li>
+							<a class="waves-attach" href="ui-dropdown-menu.html">Anceline DONG</a>
+						</li>
+						<li>
+							<a class="waves-attach" href="ui-nav-drawer.html">Marlène DONG</a>
+						</li>
+						<li>
+							<a class="waves-attach" href="ui-picker.html">Jonathan TRAN</a>
+						</li>
+						<li>
+							<a class="waves-attach" href="ui-progress.html">Pascal TRAN</a>
+						</li>
+						<li>
+							<a class="waves-attach" href="ui-selection-control.html">Alexandre TRAN</a>
+						</li>
+						<li>
+							<a class="waves-attach" href="ui-snackbar.html">Jeremy NG</a>
+						</li>
+						<li>
+							<a class="waves-attach" href="ui-tab.html">Alex NG</a>
+						</li>
+						<li>
+							<a class="waves-attach" href="ui-tab.html">Stephane MAHTOUT</a>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<a class="collapsed waves-attach" data-toggle="collapse" href="#doc_menu_extras">Vidéos</a>
+					<ul class="collapse menu-collapse" id="doc_menu_extras">
+						<li>
+							<a class="waves-attach" href="ui-avatar.html">2010</a>
+						</li>
+						<li>
+							<a class="waves-attach" href="ui-icon.html">Noel 2005</a>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<a class="collapsed waves-attach" data-toggle="collapse" href="#doc_menu_javascript">Trucs</a>
+					<ul class="collapse menu-collapse" id="doc_menu_javascript">
+						<li>
+							<a class="waves-attach" href="ui-affix.html">machin</a>
+						</li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+	</div>
+</nav>
+
+<div class="content-heading">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-6 col-lg-push-3 col-sm-10 col-sm-push-1">
+				<h1 class="heading">Eglise baptise chinoise de marne la vallée</h1>
+			</div>
+		</div>
+	</div>
+</div>
+
+<main class="content">
+	<div class="container">
+
+		<div id="app"></div>
+
+	</div>
+</main>
+
+<script id="index" type="text/x-kendo-template">
+
+	<div class="row">
+		<div class="col-lg-6 col-lg-push-3 col-sm-10 col-sm-push-1">
+			<section class="content-inner margin-top-no">
+				<div class="card">
+					<div class="card-main">
+						<div class="card-inner">
+							<p>Petite page pour toi Kevin ! Amuse toi à regarder ce que tout le monde t'as laissé comme message !</p>
+							<blockquote> Kevin ! </blockquote>
+							<p>Un espace rien que pour ton baptème !</p>
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
+	</div>
+
+	<h2 class="content-sub-heading">31 Janvier 2016</h2>
+	<p>Voici la liste de tous les messages laissés ! <small>(Tu pourras naviguer par le menu à gauche ensuite ^^)</small> </p>
+
+	<!-- DATA TABLE -->
+
+	<div class="table-responsive">
+		<table class="table" title="A basic table">
+			<thead>
+			<tr>
+				<th>Messages</th>
+			</tr>
+			</thead>
+			<tbody>
+			<tr>
+				<td>
+					<a class="waves-attach" href="#/CelineLIM">
+						<table>
+							<tr>
+								<td class="MenuIconGauche">
+									<span class="avatar avatar-sm"><img src="./images/profils/CelineLIM.jpg"></span>
+								</td>
+								<td class="MenuAlignDroite">
+									<span>Celine LIM</span>
+								</td>
+							</tr>
+						</table>
+					</a>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<a class="waves-attach" href="#/AxelleLY">
+						<table>
+							<tr>
+								<td class="MenuIconGauche">
+									<span class="avatar avatar-sm"><img src="./images/profils/AxelleLY.jpg"></span>
+								</td>
+								<td class="MenuAlignDroite">
+									<span>Axelle LY</span>
+								</td>
+							</tr>
+						</table>
+					</a>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<a class="waves-attach" href="#/VirginieSOK">
+						<table>
+							<tr>
+								<td class="MenuIconGauche">
+									<span class="avatar avatar-sm"><img src="./images/profils/VirginieSOK.jpg"></span>
+								</td>
+								<td class="MenuAlignDroite">
+									<span>Vriginie SOK</span>
+								</td>
+							</tr>
+						</table>
+					</a>
+				</td>
+			</tr>
+			</tbody>
+		</table>
+	</div>
+
+	<!-- FIN DATA TABLE -->
+
+</script>
+
+<script id="CelineLIM" type="text/x-kendo-template">
+	<div class="tile-wrap">
+		<a class="tile waves-attach" href="#">
+			<div class="tile-inner">
+				<table>
+					<tr>
+						<td class="MenuIconGauche">
+							<span class="avatar avatar-sm"><img src="./images/profils/CelineLIM.jpg"></span>
+						</td>
+						<td class="MenuAlignDroite">
+							<span>Celine LIM</span>
+						</td>
+					</tr>
+				</table>
+			</div>
+		</a>
+	</div>
+</script>
+
+<script id="AxelleLY" type="text/x-kendo-template">
+
+	<div class="col-lg-12 col-sm-1">
+		<div class="card">
+			<div class="card-main">
+				<div class="card-header">
+					<div class="card-header-side pull-left">
+						<span class="avatar avatar-sm"><img src="./images/profils/AxelleLY.jpg"></span>
+					</div>
+					<div class="card-inner">
+						<span>Axelle LY</span>
+					</div>
+				</div>
+				<div class="card-inner">
+					<p>
+						Salut Kévin, <br/>
+						Comment vas-tu ? <br/>
+						C'est cool de faire les études bibliques d'Éliane avec toi, on apprend plein de trucs. <br/>
+						Ton enthousiasme m'encourage. <br/>
+						J'essaierai de prier pour ta foi et ton chemin avec Dieu. <br/>
+						Puisses-tu voir à quel point Dieu te bénit ! <br/>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<!-- DEBUT DES CARTES DE CITATION -->
+
+	<div class="card-wrap">
+		<div class="row">
+			<div class="col-md-4 col-sm-6">
+				<div class="card">
+					<div class="card-main">
+						<div class="card-inner">
+							<blockquote>
+								C'est moi qui suis le pain de la vie. Celui qui vient à moi n'aura jamais faim et celui qui croit en moi n'aura jamais soif.
+							</blockquote>
+						</div>
+						<div class="card-action">
+							<div class="card-action-btn pull-left">
+								<a class="btn btn-flat waves-attach waves-effect" href="javascript:void(0)"><span class="icon">check</span>&nbsp;Jean 6:35</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4 col-sm-6">
+				<div class="card">
+					<div class="card-main">
+						<div class="card-inner">
+							<blockquote>
+								Je suis la lumière du monde. Celui qui me suit ne marchera pas dans les ténèbres, mais il aura au contraire la lumière de la vie.
+							</blockquote>
+						</div>
+						<div class="card-action">
+							<div class="card-action-btn pull-left">
+								<a class="btn btn-flat waves-attach waves-effect" href="javascript:void(0)"><span class="icon">check</span>&nbsp;Jean 8:12</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4 col-sm-6">
+				<div class="card">
+					<div class="card-main">
+						<div class="card-inner">
+							<blockquote>
+								C'est moi qui suis la porte. Si quelqu'un entre par moi, il sera sauvé ; il entrera et sortira, et il trouvera de quoi se nourrir.
+							</blockquote>
+						</div>
+						<div class="card-action">
+							<div class="card-action-btn pull-left">
+								<a class="btn btn-flat waves-attach waves-effect" href="javascript:void(0)"><span class="icon">check</span>&nbsp;Jean 10:9</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-md-4 col-sm-6">
+				<div class="card">
+					<div class="card-main">
+						<div class="card-inner">
+							<blockquote>
+								Je suis le bon berger. Le bon berger donne sa vie pour ses brebis.
+							</blockquote>
+						</div>
+						<div class="card-action">
+							<div class="card-action-btn pull-left">
+								<a class="btn btn-flat waves-attach waves-effect" href="javascript:void(0)"><span class="icon">check</span>&nbsp;Jean 10:11</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4 col-sm-6">
+				<div class="card">
+					<div class="card-main">
+						<div class="card-inner">
+							<blockquote>
+								C'est moi qui suis la résurrection et la vie. Celui qui croit en moi vivra, même s'il meurt.
+							</blockquote>
+						</div>
+						<div class="card-action">
+							<div class="card-action-btn pull-left">
+								<a class="btn btn-flat waves-attach waves-effect" href="javascript:void(0)"><span class="icon">check</span>&nbsp;Jean 11:25</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4 col-sm-6">
+				<div class="card">
+					<div class="card-main">
+						<div class="card-inner">
+							<blockquote>
+								C'est moi qui suis le chemin, la vérité et la vie. On ne vient au Père qu'en passant par moi.
+							</blockquote>
+						</div>
+						<div class="card-action">
+							<div class="card-action-btn pull-left">
+								<a class="btn btn-flat waves-attach waves-effect" href="javascript:void(0)"><span class="icon">check</span>&nbsp;Jean 14:6</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-md-4 col-sm-6">
+				<div class="card">
+					<div class="card-main">
+						<div class="card-inner">
+							<blockquote>
+								C'est moi qui suis le vrai cep, et mon Père est le vigneron.
+							</blockquote>
+						</div>
+						<div class="card-action">
+							<div class="card-action-btn pull-left">
+								<a class="btn btn-flat waves-attach waves-effect" href="javascript:void(0)"><span class="icon">check</span>&nbsp;Jean 15:1</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-8 col-sm-6">
+				<div class="card">
+					<div class="card-main">
+						<div class="card-inner">
+							<blockquote>
+								Ainsi donc, déclarés justes sur la base de la foi, nous avons la paix avec Dieu par l'intermédiaire de notre Seigneur Jésus-Christ; c'est aussi par son intermédiaire que nous avons accès par la foi à cette grâce, dans laquelle nous tenons ferme, et nous plaçons notre fierté dans l'espérance de prendre part à la gloire de Dieu. Bien plus, nous sommes fiers même de nos détresses, sachant que la détresse produit la persévérance, la persévérance la victoire dans l'épreuve, et la victoire dans l'épreuve l'espérance. Or cette espérance ne trompe pas, parce que l'amour de Dieu est déversé dans notre cœur par le Saint-Esprit qui nous a été donné.
+							</blockquote>
+						</div>
+						<div class="card-action">
+							<div class="card-action-btn pull-left">
+								<a class="btn btn-flat waves-attach waves-effect" href="javascript:void(0)"><span class="icon">check</span>&nbsp;Romains 1:1-5</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+	<!-- FIN DES CARTES DE CITATION -->
+
+
+</script> <!-- FIN AXELLE LY -->
+
+<script id="VirginieSOK" type="text/x-kendo-template">
+	<div class="tile-wrap">
+		<a class    ="tile waves-attach" href="#">
+			<div class="tile-inner">
+				<table>
+					<tr>
+						<td class="MenuIconGauche">
+							<span class="avatar avatar-sm"><img src="./images/profils/VirginieSOK.jpg"></span>
+						</td>
+						<td class="MenuAlignDroite">
+							<span>Virginie SOK</span>
+						</td>
+					</tr>
+				</table>
+			</div>
+		</a>
+	</div>
+</script>
+
+<script>
+	// models
+	var viewModel = kendo.observable({
+		foo: "World!",
+
+		init: function() {
+			console.log("view init", this.foo);
+		},
+
+		show: function() {
+			console.log("view show", this.foo);
+		},
+
+		buttonClick: function() {
+			alert("button clicked");
+		},
+
+		goToViewCelineLIM: function(e) {
+			router.navigate("/CelineLIM");
+			e.preventDefault();
+		},
+
+		goToViewAxelleLY: function(e) {
+			router.navigate("/AxelleLY");
+			e.preventDefault();
+		},
+
+		goToViewVirginieSOK: function(e) {
+			router.navigate("/VirginieSOK");
+			e.preventDefault();
+		},
+
+		goToIndex: function(e) {
+			router.navigate("/");
+			e.preventDefault();
+		}
+	});
+
+
+	// views, layouts
+	var layout = new kendo.Layout("<header></header><section id='content'></section><footer></footer>");
+
+	var index = new kendo.View("index", { model: viewModel, init: viewModel.init.bind(viewModel), show: viewModel.show.bind(viewModel) });
+
+	var CelineLIM = new kendo.View("CelineLIM", { model: viewModel, init: viewModel.init.bind(viewModel), show: viewModel.show.bind(viewModel) });
+
+	var AxelleLY = new kendo.View("AxelleLY", { model: viewModel, init: viewModel.init.bind(viewModel), show: viewModel.show.bind(viewModel) });
+
+	var VirginieSOK = new kendo.View("VirginieSOK", { model: viewModel, init: viewModel.init.bind(viewModel), show: viewModel.show.bind(viewModel) });
+
+
+	// routing
+	var router = new kendo.Router();
+
+	router.bind("init", function() {
+		layout.render($("#app"));
+	});
+
+	router.route("/", function() {
+		layout.showIn("#content", index);
+	});
+
+	router.route("/CelineLIM", function() {
+		layout.showIn("#content", CelineLIM);
+	});
+
+	router.route("/AxelleLY", function() {
+		layout.showIn("#content", AxelleLY);
+	});
+
+	router.route("/VirginieSOK", function() {
+		layout.showIn("#content", VirginieSOK);
+	});
+
+	$(function() {
+		router.start();
+	});
+
+</script>
+
+
 </body>
 </html>
