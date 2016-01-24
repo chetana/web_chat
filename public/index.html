@@ -191,6 +191,23 @@
 <main class="content">
 	<div class="container">
 
+		<style>
+			/* the initial position of the next div */
+			.k-fx-swap.k-fx-start .k-fx-next {
+				-webkit-transform: translatex(100%);
+				-moz-transform: translatex(100%);
+				transform: translatex(100%);
+			}
+
+			/* the final position of the current div */
+			.k-fx-swap.k-fx-end .k-fx-current {
+				opacity: 0;
+				-webkit-transform: scale(0.9);
+				-moz-transform: scale(0.9);
+				transform: scale(0.9);
+			}
+		</style>
+
 		<div id="app"></div>
 
 	</div>
@@ -589,23 +606,23 @@
 	});
 
 	router.route("/", function() {
-		layout.showIn("#content", index);
+		layout.showIn("#content", index, "swap");
 	});
 
 	router.route("/CelineLIM", function() {
-		layout.showIn("#content", CelineLIM);
+		layout.showIn("#content", CelineLIM, "swap");
 	});
 
 	router.route("/AxelleLY", function() {
-		layout.showIn("#content", AxelleLY);
+		layout.showIn("#content", AxelleLY, "swap");
 	});
 
 	router.route("/VirginieSOK", function() {
-		layout.showIn("#content", VirginieSOK);
+		layout.showIn("#content", VirginieSOK, "swap");
 	});
 
 	router.route("/OscarSChen", function() {
-		layout.showIn("#content", OscarSChen);
+		layout.showIn("#content", OscarSChen, "swap");
 	});
 
 	$(function() {
