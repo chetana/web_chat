@@ -195,6 +195,18 @@
 								</div>
 							</a>
 						</li>
+						<li>
+							<a class="waves-attach" href="#/JonathanDONG">
+								<div class="card-header">
+									<div class="card-header-side pull-left">
+										<span class="avatar avatar-sm"><img src="./images/profils/JonathanDONG.jpg"></span>
+									</div>
+									<div class="card-inner">
+										<span>Jonathan DONG</span>
+									</div>
+								</div>
+							</a>
+						</li>
 					</ul>
 				</li>
 				<li>
@@ -415,6 +427,20 @@
 							</div>
 							<div class="card-inner">
 								<span>Marlène DONG</span>
+							</div>
+						</div>
+					</a>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<a class="waves-attach" href="#/JonathanDONG">
+						<div class="card-header">
+							<div class="card-header-side pull-left">
+								<span class="avatar avatar-sm"><img src="./images/profils/JonathanDONG.jpg"></span>
+							</div>
+							<div class="card-inner">
+								<span>Jonathan DONG</span>
 							</div>
 						</div>
 					</a>
@@ -975,6 +1001,26 @@
 	</div>
 </script>
 
+<script id="JonathanDONG" type="text/x-kendo-template">
+	<div class="col-md-12 col-sm-1">
+		<div class="card">
+			<div class="card-main ColorBlock1">
+				<div class="card-header">
+					<div class="card-header-side pull-left">
+						<span class="avatar avatar-sm"><img src="./images/profils/JonathanDONG.jpg"></span>
+					</div>
+					<div class="card-inner">
+						<span>Jonathan DONG</span>
+					</div>
+				</div>
+				<div class="card-inner">
+					<p>
+						Félicitations Kévin pour ton baptême ! Tu nous fais très plaisir et tu nous encourages par ton geste émoticône smile Que Dieu te garde durant toute ta vie, <br/>
+				</div>
+			</div>
+		</div>
+	</div>
+</script>
 
 <script>
 	// models
@@ -1055,6 +1101,8 @@
 
 	var MarleneDONG = new kendo.View("MarleneDONG", { model: viewModel, init: viewModel.init.bind(viewModel), show: viewModel.show.bind(viewModel) });
 
+	var JonathanDONG = new kendo.View("JonathanDONG", { model: viewModel, init: viewModel.init.bind(viewModel), show: viewModel.show.bind(viewModel) });
+
 
 	// routing
 	var router = new kendo.Router();
@@ -1105,6 +1153,10 @@
 
 	router.route("/MarleneDONG", function() {
 		layout.showIn("#content", MarleneDONG, "swap");
+	});
+
+	router.route("/JonathanDONG", function() {
+		layout.showIn("#content", JonathanDONG, "swap");
 	});
 
 	$(function() {

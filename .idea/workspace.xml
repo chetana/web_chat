@@ -2,31 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="90ffb4d8-bce6-436b-b896-0d019b41bfc8" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/AncelineDONG/HomeCardPic.PNG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/CelineLIM/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/CelineLIM/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/CelineLIM/3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/CelineLIM/4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/MarleneDONG/HomeCardPic.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/OlivierManiphanh/HomeCardPic.PNG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/profils/AncelineDONG.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/profils/DavidSOK.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/profils/MarleneDONG.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/profils/OlivierManiphanh.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/profils/PaulineTANG.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/profils/TimotheeTHUM.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/web_server_node_modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/mdb.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/unslider-dots.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/unslider.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/kevin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/unslider-min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/web-server.iml" afterPath="$PROJECT_DIR$/.idea/web-server.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/profils/JonathanDONG.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/kevinBapteme.css" afterPath="$PROJECT_DIR$/public/css/kevinBapteme.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/index.html" afterPath="$PROJECT_DIR$/public/index.html" />
     </list>
     <ignored path="web-server.iws" />
@@ -51,11 +28,9 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.39492753">
-              <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="65" selection-end-column="21" />
+            <state vertical-scroll-proportion="0.5996377">
+              <caret line="1017" column="185" selection-start-line="1017" selection-start-column="185" selection-end-line="1017" selection-end-column="185" />
               <folding>
-                <element signature="n#script#6;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#script#7;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#script#10;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
             </state>
@@ -79,26 +54,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-8.5">
               <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index_old.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/index_old.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/test.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="206" column="10" selection-start-line="0" selection-start-column="0" selection-end-line="319" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -361,8 +316,6 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="n#script#6;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#script#7;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#script#10;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
@@ -376,29 +329,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/index_old.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/test.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="206" column="10" selection-start-line="0" selection-start-column="0" selection-end-line="319" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="n#script#6;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#script#7;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#script#10;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
@@ -408,22 +343,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/index_old.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/test.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="206" column="10" selection-start-line="0" selection-start-column="0" selection-end-line="319" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -479,11 +398,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.39492753">
-          <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="65" selection-end-column="21" />
+        <state vertical-scroll-proportion="0.5996377">
+          <caret line="1017" column="185" selection-start-line="1017" selection-start-column="185" selection-end-line="1017" selection-end-column="185" />
           <folding>
-            <element signature="n#script#6;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#script#7;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#script#10;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
