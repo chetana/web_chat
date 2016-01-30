@@ -6,19 +6,25 @@
 	<meta content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no, width=device-width" name="viewport">
 	<title>Eglise baptise chinoise de marne la vallée</title>
 
-    <link rel="stylesheet" href="http://kendo.cdn.telerik.com/2016.1.112/styles/kendo.common.min.css"/>
-    <link rel="stylesheet" href="http://kendo.cdn.telerik.com/2016.1.112/styles/kendo.rtl.min.css"/>
-    <link rel="stylesheet" href="http://kendo.cdn.telerik.com/2016.1.112/styles/kendo.silver.min.css"/>
-    <link rel="stylesheet" href="http://kendo.cdn.telerik.com/2016.1.112/styles/kendo.mobile.all.min.css"/>
+	<link rel="stylesheet" href="./css/kendo.common.min.css"/>
+	<link rel="stylesheet" href="./css/kendo.rtl.min.css"/>
+	<link rel="stylesheet" href="./css/kendo.silver.min.css"/>
+	<link rel="stylesheet" href="./css/kendo.mobile.all.min.css"/>
 
-    <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
-    <script src="http://kendo.cdn.telerik.com/2016.1.112/js/kendo.all.min.js"></script>
+	<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+	<script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
+	<script src="http://kendo.cdn.telerik.com/2016.1.112/js/kendo.all.min.js"></script>
 	<!-- js -->
 	<script src="./js/jquery.min.js"></script>
 	<script src="./js/base.min.js"></script>
 
 	<!-- js for doc -->
 	<script src="./js/project.min.js"></script>
+
+
+	<script src="./js/unslider-min.js"></script>
+	<link href="./css/unslider-dots.css" rel="stylesheet">
+	<link href="./css/unslider.css" rel="stylesheet">
 
 	<!-- css -->
 	<link href="./css/base.css" rel="stylesheet">
@@ -28,6 +34,7 @@
 
 	<!-- css for kevin -->
 	<link href="./css/kevinBapteme.css" rel="stylesheet">
+
 </head>
 
 <body class="page-brand">
@@ -44,19 +51,19 @@
 		<li class="dropdown margin-right">
 			<a class="dropdown-toggle padding-left-no padding-right-no" data-toggle="dropdown">
 				<span class="access-hide">Kevin LIM</span>
-				<span class="avatar avatar-sm"><img alt="alt text for John Smith avatar" src="./images/users/KevinSmall.jpg"></span>
+				<span class="avatar avatar-sm"><img alt="Kevin" src="./images/users/KevinSmall.jpg"></span>
 			</a>
-			<ul class="dropdown-menu">
-				<li>
-					<a class="padding-right-lg waves-attach" href="javascript:void(0)"><span class="icon icon-lg margin-right">account_box</span>Profile Settings</a>
-				</li>
-				<li>
-					<a class="padding-right-lg waves-attach" href="javascript:void(0)"><span class="icon icon-lg margin-right">add_to_photos</span>Upload Photo</a>
-				</li>
-				<li>
-					<a class="padding-right-lg waves-attach" href="#"><span class="icon icon-lg margin-right">exit_to_app</span>Logout</a>
-				</li>
-			</ul>
+			<!--<ul class="dropdown-menu">-->
+				<!--<li>-->
+					<!--<a class="padding-right-lg waves-attach" href="javascript:void(0)"><span class="icon icon-lg margin-right">account_box</span>Profile Settings</a>-->
+				<!--</li>-->
+				<!--<li>-->
+					<!--<a class="padding-right-lg waves-attach" href="javascript:void(0)"><span class="icon icon-lg margin-right">add_to_photos</span>Upload Photo</a>-->
+				<!--</li>-->
+				<!--<li>-->
+					<!--<a class="padding-right-lg waves-attach" href="#"><span class="icon icon-lg margin-right">exit_to_app</span>Logout</a>-->
+				<!--</li>-->
+			<!--</ul>-->
 		</li>
 	</ul>
 </header>
@@ -92,18 +99,18 @@
 								</div>
 							</a>
 						</li>
-						<li>
-							<a class="waves-attach" href="#/VirginieSOK">
-								<div class="card-header">
-									<div class="card-header-side pull-left">
-										<span class="avatar avatar-sm"><img src="./images/profils/VirginieSOK.jpg"></span>
-									</div>
-									<div class="card-inner">
-										<span>Virginie SOK</span>
-									</div>
-								</div>
-							</a>
-						</li>
+						<!--<li>-->
+							<!--<a class="waves-attach" href="#/VirginieSOK">-->
+								<!--<div class="card-header">-->
+									<!--<div class="card-header-side pull-left">-->
+										<!--<span class="avatar avatar-sm"><img src="./images/profils/VirginieSOK.jpg"></span>-->
+									<!--</div>-->
+									<!--<div class="card-inner">-->
+										<!--<span>Virginie SOK</span>-->
+									<!--</div>-->
+								<!--</div>-->
+							<!--</a>-->
+						<!--</li>-->
 						<li>
 							<a class="waves-attach" href="#/OscarSChen">
 								<div class="card-header">
@@ -117,60 +124,88 @@
 							</a>
 						</li>
 						<li>
-							<a class="waves-attach" href="#">Mickael SOK</a>
+							<a class="waves-attach" href="#/TimotheeThum">
+								<div class="card-header">
+									<div class="card-header-side pull-left">
+										<span class="avatar avatar-sm"><img src="./images/profils/TimotheeThum.jpg"></span>
+									</div>
+									<div class="card-inner">
+										<span>Timothée Thum</span>
+									</div>
+								</div>
+							</a>
 						</li>
 						<li>
-							<a class="waves-attach" href="#">David SOK</a>
+							<a class="waves-attach" href="#/DavidSOK">
+								<div class="card-header">
+									<div class="card-header-side pull-left">
+										<span class="avatar avatar-sm"><img src="./images/profils/DavidSOK.jpg"></span>
+									</div>
+									<div class="card-inner">
+										<span>David SOK</span>
+									</div>
+								</div>
+							</a>
 						</li>
 						<li>
-							<a class="waves-attach" href="#">Jessica SOK</a>
+							<a class="waves-attach" href="#/PaulineTANG">
+								<div class="card-header">
+									<div class="card-header-side pull-left">
+										<span class="avatar avatar-sm"><img src="./images/profils/PaulineTANG.jpg"></span>
+									</div>
+									<div class="card-inner">
+										<span>Pauline TANG</span>
+									</div>
+								</div>
+							</a>
 						</li>
 						<li>
-							<a class="waves-attach" href="#">Jonathan DONG</a>
+							<a class="waves-attach" href="#/OlivierManiphanh">
+								<div class="card-header">
+									<div class="card-header-side pull-left">
+										<span class="avatar avatar-sm"><img src="./images/profils/OlivierManiphanh.jpg"></span>
+									</div>
+									<div class="card-inner">
+										<span>Olivier Maniphanh</span>
+									</div>
+								</div>
+							</a>
 						</li>
 						<li>
-							<a class="waves-attach" href="#">Anceline DONG</a>
+							<a class="waves-attach" href="#/AncelineDONG">
+								<div class="card-header">
+									<div class="card-header-side pull-left">
+										<span class="avatar avatar-sm"><img src="./images/profils/AncelineDONG.jpg"></span>
+									</div>
+									<div class="card-inner">
+										<span>Anceline DONG</span>
+									</div>
+								</div>
+							</a>
 						</li>
 						<li>
-							<a class="waves-attach" href="#">Marlène DONG</a>
-						</li>
-						<li>
-							<a class="waves-attach" href="#">Jonathan TRAN</a>
-						</li>
-						<li>
-							<a class="waves-attach" href="#">Pascal TRAN</a>
-						</li>
-						<li>
-							<a class="waves-attach" href="#">Alexandre TRAN</a>
-						</li>
-						<li>
-							<a class="waves-attach" href="#">Jeremy NG</a>
-						</li>
-						<li>
-							<a class="waves-attach" href="#">Alex NG</a>
-						</li>
-						<li>
-							<a class="waves-attach" href="#">Stephane MAHTOUT</a>
+							<a class="waves-attach" href="#/MarleneDONG">
+								<div class="card-header">
+									<div class="card-header-side pull-left">
+										<span class="avatar avatar-sm"><img src="./images/profils/MarleneDONG.jpg"></span>
+									</div>
+									<div class="card-inner">
+										<span>Marlène DONG</span>
+									</div>
+								</div>
+							</a>
 						</li>
 					</ul>
 				</li>
 				<li>
 					<a class="collapsed waves-attach" data-toggle="collapse" href="#doc_menu_extras">Vidéos</a>
 					<ul class="collapse menu-collapse" id="doc_menu_extras">
-						<li>
-							<a class="waves-attach" href="#">2010</a>
-						</li>
-						<li>
-							<a class="waves-attach" href="#">Noel 2005</a>
-						</li>
-					</ul>
-				</li>
-				<li>
-					<a class="collapsed waves-attach" data-toggle="collapse" href="#doc_menu_javascript">Trucs</a>
-					<ul class="collapse menu-collapse" id="doc_menu_javascript">
-						<li>
-							<a class="waves-attach" href="#">machin</a>
-						</li>
+						<!--<li>-->
+							<!--<a class="waves-attach" href="#">2010</a>-->
+						<!--</li>-->
+						<!--<li>-->
+							<!--<a class="waves-attach" href="#">Noel 2005</a>-->
+						<!--</li>-->
 					</ul>
 				</li>
 			</ul>
@@ -273,20 +308,20 @@
 					</a>
 				</td>
 			</tr>
-			<tr>
-				<td>
-					<a class="waves-attach" href="#/VirginieSOK">
-						<div class="card-header">
-							<div class="card-header-side pull-left">
-								<span class="avatar avatar-sm"><img src="./images/profils/VirginieSOK.jpg"></span>
-							</div>
-							<div class="card-inner">
-								<span>Virginie SOK</span>
-							</div>
-						</div>
-					</a>
-				</td>
-			</tr>
+			<!--<tr>-->
+				<!--<td>-->
+					<!--<a class="waves-attach" href="#/VirginieSOK">-->
+						<!--<div class="card-header">-->
+							<!--<div class="card-header-side pull-left">-->
+								<!--<span class="avatar avatar-sm"><img src="./images/profils/VirginieSOK.jpg"></span>-->
+							<!--</div>-->
+							<!--<div class="card-inner">-->
+								<!--<span>Virginie SOK</span>-->
+							<!--</div>-->
+						<!--</div>-->
+					<!--</a>-->
+				<!--</td>-->
+			<!--</tr>-->
 			<tr>
 				<td>
 					<a class="waves-attach" href="#/OscarSChen">
@@ -296,6 +331,90 @@
 							</div>
 							<div class="card-inner">
 								<span>Oscar S Chen</span>
+							</div>
+						</div>
+					</a>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<a class="waves-attach" href="#/TimotheeThum">
+						<div class="card-header">
+							<div class="card-header-side pull-left">
+								<span class="avatar avatar-sm"><img src="./images/profils/TimotheeThum.jpg"></span>
+							</div>
+							<div class="card-inner">
+								<span>Timothée Thum</span>
+							</div>
+						</div>
+					</a>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<a class="waves-attach" href="#/DavidSOK">
+						<div class="card-header">
+							<div class="card-header-side pull-left">
+								<span class="avatar avatar-sm"><img src="./images/profils/DavidSOK.jpg"></span>
+							</div>
+							<div class="card-inner">
+								<span>David SOK</span>
+							</div>
+						</div>
+					</a>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<a class="waves-attach" href="#/PaulineTANG">
+						<div class="card-header">
+							<div class="card-header-side pull-left">
+								<span class="avatar avatar-sm"><img src="./images/profils/PaulineTANG.jpg"></span>
+							</div>
+							<div class="card-inner">
+								<span>Pauline TANG</span>
+							</div>
+						</div>
+					</a>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<a class="waves-attach" href="#/OlivierManiphanh">
+						<div class="card-header">
+							<div class="card-header-side pull-left">
+								<span class="avatar avatar-sm"><img src="./images/profils/OlivierManiphanh.jpg"></span>
+							</div>
+							<div class="card-inner">
+								<span>Olivier Maniphanh</span>
+							</div>
+						</div>
+					</a>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<a class="waves-attach" href="#/AncelineDONG">
+						<div class="card-header">
+							<div class="card-header-side pull-left">
+								<span class="avatar avatar-sm"><img src="./images/profils/AncelineDONG.jpg"></span>
+							</div>
+							<div class="card-inner">
+								<span>Anceline DONG</span>
+							</div>
+						</div>
+					</a>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<a class="waves-attach" href="#/MarleneDONG">
+						<div class="card-header">
+							<div class="card-header-side pull-left">
+								<span class="avatar avatar-sm"><img src="./images/profils/MarleneDONG.jpg"></span>
+							</div>
+							<div class="card-inner">
+								<span>Marlène DONG</span>
 							</div>
 						</div>
 					</a>
@@ -325,6 +444,51 @@
 				</table>
 			</div>
 		</a>
+	</div>
+
+	<div class="card-wrap">
+		<div class="row">
+			<div class="col-md-6 col-sm-6">
+				<div class="card">
+					<div class="card-main">
+						<div class="card-inner">
+							<img class="img-responsive" src="./images/CelineLIM/1.jpg">
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-6 col-sm-6">
+				<div class="card">
+					<div class="card-main">
+						<div class="card-inner">
+							<img class="img-responsive" src="./images/CelineLIM/2.jpg">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-md-6 col-sm-6">
+				<div class="card">
+					<div class="card-main">
+						<div class="card-inner">
+							<img class="img-responsive" src="./images/CelineLIM/3.jpg">
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-6 col-sm-6">
+				<div class="card">
+					<div class="card-main">
+						<div class="card-inner">
+							<img class="img-responsive" src="./images/CelineLIM/4.jpg">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
 	</div>
 </script>
 
@@ -540,6 +704,278 @@
 	</div>
 </script>
 
+<script id="TimotheeThum" type="text/x-kendo-template">
+	<div class="col-md-12 col-sm-1">
+		<div class="card">
+			<div class="card-main ColorBlock1">
+				<div class="card-header">
+					<div class="card-header-side pull-left">
+						<span class="avatar avatar-sm"><img src="./images/profils/TimotheeThum.jpg"></span>
+					</div>
+					<div class="card-inner">
+						<span>Timothée Thum</span>
+					</div>
+				</div>
+				<div class="card-inner">
+					<p>
+						Que Dieu t'accompagne tout au long de cette nouvelle vie en Christ pendant les moments de bonheurs et de malheurs. Tiens bon, et si jamais tu tombes relève toi, persévère et reste dans le droit chemin jusqu'au jour où tu le verras face à face.					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</script>
+
+<script id="DavidSOK" type="text/x-kendo-template">
+
+	<div class="col-md-12 col-sm-1">
+		<div class="card">
+			<div class="card-main ColorBlock1">
+				<div class="card-header">
+					<div class="card-header-side pull-left">
+						<span class="avatar avatar-sm"><img src="./images/profils/DavidSOK.jpg"></span>
+					</div>
+					<div class="card-inner">
+						<span>David SOK</span>
+					</div>
+				</div>
+				<div class="card-inner">
+					<p>
+						Félicitations Kévin pour ton baptême ! <br/>
+						Je te souhaite de passer une vie comblée de bénédiction et de bonheur avec Dieu, qu'il te garde et te bénise. Il sera toujours présent pour toi dans n'importe quelle situation ;) .
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<!-- DEBUT DES CARTES DE CITATION DAVID SOK -->
+
+	<div class="card-wrap">
+		<div class="row">
+			<div class="col-md-3 col-sm-6"></div>
+			<div class="col-md-6 col-sm-6">
+				<div class="card">
+					<div class="card-main">
+						<div class="card-inner">
+							<blockquote>
+								Le Seigneur est mon berger : <br/>
+								je ne manque de rien. <br/>
+								Sur des prés d’herbe fraîche, <br/>
+								il me fait reposer. <br/>
+								<br/>
+								Il me mène vers les eaux tranquilles <br/>
+								et me fait revivre ; <br/>
+								il me conduit par le juste chemin <br/>
+								pour l’honneur de son nom. <br/>
+								<br/>
+								Si je traverse les ravins de la mort, <br/>
+								je ne crains aucun mal, <br/>
+								car tu es avec moi : <br/>
+								ton bâton me guide et me rassure. <br/>
+								<br/>
+								Tu prépares la table pour moi <br/>
+								devant mes ennemis ; <br/>
+								tu répands le parfum sur ma tête, <br/>
+								ma coupe est débordante. <br/>
+								<br/>
+								Grâce et bonheur m’accompagnent <br/>
+								tous les jours de ma vie ; <br/>
+								j’habiterai la maison du Seigneur <br/>
+								pour la durée de mes jours. <br/>
+							</blockquote>
+						</div>
+						<div class="card-action">
+							<div class="card-action-btn pull-left">
+								<a class="btn btn-flat waves-attach waves-effect" href="javascript:void(0)"><span class="icon">check</span>&nbsp;Psaumes 23</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3 col-sm-6"></div>
+		</div>
+	</div>
+
+	<!-- FIN DES CARTES DE CITATION DAVID SOK -->
+
+
+</script> <!-- FIN DAVID SOK -->
+
+<script id="PaulineTANG" type="text/x-kendo-template">
+	<div class="col-md-12 col-sm-1">
+		<div class="card">
+			<div class="card-main ColorBlock1">
+				<div class="card-header">
+					<div class="card-header-side pull-left">
+						<span class="avatar avatar-sm"><img src="./images/profils/PaulineTANG.jpg"></span>
+					</div>
+					<div class="card-inner">
+						<span>Pauline TANG</span>
+					</div>
+				</div>
+				<div class="card-inner">
+					<p>
+						Hey Kevin je te félicite pour ton baptême , que Dieu te conduis vers le bon chemin et te béni !!
+				</div>
+			</div>
+		</div>
+	</div>
+</script>
+
+<script id="OlivierManiphanh" type="text/x-kendo-template">
+	<div class="col-lg-12 col-sm-12">
+		<div class="card">
+			<div class="card-main">
+				<div class="card-header">
+					<div class="card-header-side pull-left">
+						<div class="avatar">
+							<img alt="Photo Olivier" src="./images/profils/OlivierManiphanh.jpg">
+						</div>
+					</div>
+					<div class="card-inner">
+						<span>Olivier Maniphanh</span>
+					</div>
+				</div>
+				<div class="card-img">
+					<img alt="Photo Olivier" src="./images/OlivierManiphanh/HomeCardPic.PNG" style="width: 100%;">
+					<p class="card-img-heading">SURPRIIIISE !!! Lol x)</p>
+				</div>
+				<div class="card-inner">
+					<p>
+						Cher petit Kévin ! hihihi (bon ok t'as 17 ans ^^) <br/>
+						Je voulais te dire que c’est avec une grande joie que j’ai appris que tu souhaitais te baptiser et que tu acceptes de suivre notre Seigneur ! Que ta vie soit transformée et soit remplie de bénédictions ! :) Que Dieu puisse guider tes pas à chaque moment de ta vie comme dans les bons et les mauvais moments.
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- DEBUT DES CARTES DE CITATION OLIVIER Maniphanh -->
+
+	<div class="card-wrap">
+		<div class="row">
+			<div class="col-md-6 col-sm-6">
+				<div class="card">
+					<div class="card-main">
+						<div class="card-header">
+							<div class="card-header-side pull-left">
+								<div class="avatar">
+									<img alt="Photo Olivier" src="./images/profils/OlivierManiphanh.jpg">
+								</div>
+							</div>
+							<div class="card-inner">
+								<span>Un petit verset quand même :p</span>
+							</div>
+						</div>
+						<div class="card-inner">
+							<blockquote>
+								Ta parole est une lampe à mes pieds, Et une lumière sur mon sentier.
+							</blockquote>
+						</div>
+						<div class="card-action">
+							<div class="card-action-btn pull-left">
+								<a class="btn btn-flat waves-attach waves-effect" href="javascript:void(0)"><span class="icon">check</span>&nbsp;Psaumes 119 :105</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- FIN DES CARTES DE CITATION OLIVIER Maniphanh -->
+			<div class="col-lg-4 col-sm-6">
+				<div class="card card-brand-accent">
+					<div class="card-main">
+						<div class="card-inner">
+							<p>
+								Vraiment content de te connaître en tant qu’ami mais aussi en tant que frère !
+							</p>
+						</div>
+						<div class="card-action">
+							<div class="card-action-btn pull-left">
+								<a class="btn btn-flat waves-attach waves-button waves-effect" href="javascript:void(0)"><span class="icon">check</span>&nbsp;Sois bénis Kev ! :)</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</script>
+
+<script id="AncelineDONG" type="text/x-kendo-template">
+	<div class="col-lg-12 col-sm-12">
+		<div class="card">
+			<div class="card-main">
+				<div class="card-header">
+					<div class="card-header-side pull-left">
+						<div class="avatar">
+							<img alt="Photo Anceline" src="./images/profils/AncelineDONG.jpg">
+						</div>
+					</div>
+					<div class="card-inner">
+						<span>Anceline DONG</span>
+					</div>
+				</div>
+				<div class="card-img">
+					<img alt="Photo Anceline" src="./images/AncelineDONG/HomeCardPic.PNG" style="width: 100%;">
+					<p class="card-img-heading">Salut Kévin !</p>
+				</div>
+				<div class="card-inner">
+					<blockquote>
+						À celui qui est ferme dans ses dispositions, tu assures une paix parfaite, parce qu’il se confie en toi.
+						<div class="card-action-btn pull-right">
+							<a class="btn btn-flat waves-attach waves-effect" href="javascript:void(0)"><span class="icon">check</span>&nbsp;Ésaïe 26 : 3</a>
+						</div>
+					</blockquote>
+					<p>
+						Ca y'est, tu officialises ta décision de suivre Jésus, je suis heureuse d'être témoin du jour le plus important de ta vie :D Un verset pour bien commencer cette longue, belle et étroite route : par la fermeté que tu démontres dès aujourd'hui, tu reçois la paix de Dieu que rien ne peut ébranler (suffit de regarder avec Ses yeux !) Je te souhaite d'affermir tes pas jour après jour, de laisser passer la lumière de Dieu à travers toi pour que tu éclaires n'importe quel endroit où te trouves, et de porter du fruit, toujours plus de fruit :) Je t'embrasse fort petit bébé ;)
+					</p>
+					<p class="text-center">
+						Et je laisse la Bible conclure :
+					</p>
+					<blockquote>
+						Mieux encore : nous plaçons désormais notre fierté en Dieu par notre Seigneur Jésus-Christ qui nous a obtenu la réconciliation.
+						<div class="card-action-btn pull-right">
+							<a class="btn btn-flat waves-attach waves-effect" href="javascript:void(0)"><span class="icon">check</span>&nbsp;Romains 5 : 11</a>
+						</div>
+					</blockquote>
+				</div>
+			</div>
+		</div>
+	</div>
+</script>
+
+<script id="MarleneDONG" type="text/x-kendo-template">
+	<div class="col-lg-12 col-sm-12">
+		<div class="card">
+			<div class="card-main">
+				<div class="card-header">
+					<div class="card-header-side pull-left">
+						<div class="avatar">
+							<img alt="Photo Marlène" src="./images/profils/MarleneDONG.jpg">
+						</div>
+					</div>
+					<div class="card-inner">
+						<span>Marlène DONG</span>
+					</div>
+				</div>
+				<div class="card-img">
+					<img alt="Photo Marlène" src="./images/MarleneDONG/HomeCardPic.jpg" style="width: 100%;">
+					<p class="card-img-heading text-center">Félicitations Kévin !</p>
+				</div>
+				<div class="card-inner">
+					<p>
+						Ça me fait super plaisir que tu te baptises et je te souhaite beaucoup de bénédictions pour cette nouvelle vie qui commence (mais je suis sûre qu'il y a en aura plein !) <br/>
+						La team Dong (équipe de choc depuis 1996) te souhaite un joyeux nouvel anniversaire !!
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</script>
+
+
 <script>
 	// models
 	var viewModel = kendo.observable({
@@ -572,8 +1008,18 @@
 			e.preventDefault();
 		},
 
-		goToViewVirginieSOK: function(e) {
+		goToViewOscarSChen: function(e) {
 			router.navigate("/OscarSChen");
+			e.preventDefault();
+		},
+
+		goToViewTimotheeThum: function(e) {
+			router.navigate("/TimotheeThum");
+			e.preventDefault();
+		},
+
+		goToViewDavidSOK: function(e) {
+			router.navigate("/DavidSOK");
 			e.preventDefault();
 		},
 
@@ -596,6 +1042,18 @@
 	var VirginieSOK = new kendo.View("VirginieSOK", { model: viewModel, init: viewModel.init.bind(viewModel), show: viewModel.show.bind(viewModel) });
 
 	var OscarSChen = new kendo.View("OscarSChen", { model: viewModel, init: viewModel.init.bind(viewModel), show: viewModel.show.bind(viewModel) });
+
+	var TimotheeThum = new kendo.View("TimotheeThum", { model: viewModel, init: viewModel.init.bind(viewModel), show: viewModel.show.bind(viewModel) });
+
+	var DavidSOK = new kendo.View("DavidSOK", { model: viewModel, init: viewModel.init.bind(viewModel), show: viewModel.show.bind(viewModel) });
+
+	var PaulineTANG = new kendo.View("PaulineTANG", { model: viewModel, init: viewModel.init.bind(viewModel), show: viewModel.show.bind(viewModel) });
+
+	var OlivierManiphanh = new kendo.View("OlivierManiphanh", { model: viewModel, init: viewModel.init.bind(viewModel), show: viewModel.show.bind(viewModel) });
+
+	var AncelineDONG = new kendo.View("AncelineDONG", { model: viewModel, init: viewModel.init.bind(viewModel), show: viewModel.show.bind(viewModel) });
+
+	var MarleneDONG = new kendo.View("MarleneDONG", { model: viewModel, init: viewModel.init.bind(viewModel), show: viewModel.show.bind(viewModel) });
 
 
 	// routing
@@ -623,6 +1081,30 @@
 
 	router.route("/OscarSChen", function() {
 		layout.showIn("#content", OscarSChen, "swap");
+	});
+
+	router.route("/TimotheeThum", function() {
+		layout.showIn("#content", TimotheeThum, "swap");
+	});
+
+	router.route("/DavidSOK", function() {
+		layout.showIn("#content", DavidSOK, "swap");
+	});
+
+	router.route("/PaulineTANG", function() {
+		layout.showIn("#content", PaulineTANG, "swap");
+	});
+
+	router.route("/OlivierManiphanh", function() {
+		layout.showIn("#content", OlivierManiphanh, "swap");
+	});
+
+	router.route("/AncelineDONG", function() {
+		layout.showIn("#content", AncelineDONG, "swap");
+	});
+
+	router.route("/MarleneDONG", function() {
+		layout.showIn("#content", MarleneDONG, "swap");
 	});
 
 	$(function() {
