@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<meta content="IE=edge" http-equiv="X-UA-Compatible">
 	<meta content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no, width=device-width" name="viewport">
-	<title>Église baptise chinoise de Marne-La-Vallée</title>
+	<title>Église chinoise baptise de Marne-La-Vallée</title>
 
 	<link rel="stylesheet" href="./css/kendo.common.min.css"/>
 	<link rel="stylesheet" href="./css/kendo.rtl.min.css"/>
@@ -267,6 +267,18 @@
 						</div>
 					</a>
 				</li>
+				<li>
+					<a class="waves-attach" href="#/ChetanaYIN">
+						<div class="card-header">
+							<div class="card-header-side pull-left">
+								<span class="avatar avatar-sm"><img src="./images/profils/ChetanaYIN.jpg"></span>
+							</div>
+							<div class="card-inner">
+								<span>Chetana YIN</span>
+							</div>
+						</div>
+					</a>
+				</li>
 			<!--</ul>-->
 			<!--</li>-->
 			<!--<li>-->
@@ -289,7 +301,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-6 col-lg-push-3 col-sm-10 col-sm-push-1">
-				<h1 class="heading">Église baptise chinoise de Marne-La-Vallée</h1>
+				<h1 class="heading">Église chinoise baptise de Marne-La-Vallée</h1>
 			</div>
 		</div>
 	</div>
@@ -570,6 +582,20 @@
 							</div>
 							<div class="card-inner">
 								<span>Alexandre TRAN</span>
+							</div>
+						</div>
+					</a>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<a class="waves-attach" href="#/ChetanaYIN">
+						<div class="card-header">
+							<div class="card-header-side pull-left">
+								<span class="avatar avatar-sm"><img src="./images/profils/ChetanaYIN.jpg"></span>
+							</div>
+							<div class="card-inner">
+								<span>Chetana YIN</span>
 							</div>
 						</div>
 					</a>
@@ -1296,6 +1322,40 @@
 	<div class="col-md-4 col-sm-1"></div>
 </script>
 
+<script id="ChetanaYIN" type="text/x-kendo-template">
+	<div class="col-lg-12 col-sm-12">
+		<div class="card card-green">
+			<div class="card-main">
+				<div class="card-header">
+					<div class="card-header-side pull-left">
+						<div class="avatar">
+							<img alt="Photo Chetana" src="./images/profils/ChetanaYIN.jpg">
+						</div>
+					</div>
+					<div class="card-inner">
+						<span>Chetana YIN</span>
+					</div>
+				</div>
+				<div class="card-img">
+					<img alt="Photo Chetana" src="./images/ChetanaYIN/HomeCardPic.jpg" style="width: 100%;">
+					<p class="card-img-heading text-center">Coucou Kévin !</p>
+				</div>
+				<div class="card-inner">
+					<p class="text-center">
+						Lorsque tu nous as appris que tu allais te baptiser, j'ai été très heureux pour toi ! <br/>
+						Cette renaissance que tu vas vivre, je suis heureux de pouvoir y assité et je te souhaite le plus grand bonheur. <br/>
+						Que Dieu te bénisse !
+					</p>
+					<p class="text-center"><small>
+						Voila voila ! Ce petit site était une idée de nous, parce qu'on sait que tu aimes tout ce qui se fait de nouveau ou de moderne alors on s'est dit, un site dédié à ton baptême te fera sûrement plaisir ! <br/>
+						J'espere que tu apprécies ta visite sur cet espace !
+					</small></p>
+				</div>
+			</div>
+		</div>
+	</div>
+</script>
+
 <script>
 	// models
 	var viewModel = kendo.observable({
@@ -1387,6 +1447,8 @@
 
 	var AlexandreTRAN = new kendo.View("AlexandreTRAN", { model: viewModel, init: viewModel.init.bind(viewModel), show: viewModel.show.bind(viewModel) });
 
+	var ChetanaYIN = new kendo.View("ChetanaYIN", { model: viewModel, init: viewModel.init.bind(viewModel), show: viewModel.show.bind(viewModel) });
+
 
 	// routing
 	var router = new kendo.Router();
@@ -1461,6 +1523,10 @@
 
 	router.route("/AlexandreTRAN", function() {
 		layout.showIn("#content", AlexandreTRAN, "swap");
+	});
+
+	router.route("/ChetanaYIN", function() {
+		layout.showIn("#content", ChetanaYIN, "swap");
 	});
 
 	$(function() {
