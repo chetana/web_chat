@@ -1,5 +1,5 @@
 {
-  "name": "web-server",
+  "name": "web-chat",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,6 +9,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.13.2"
+        "express": "~3.3.4",
+        "socket.io": "~1.2.1",
+        "ent": "~0.1.0"
   }
 }
