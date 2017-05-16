@@ -30,6 +30,7 @@
             // Connexion à socket.io
             var socket = io.connect(window.location.hostname);
 
+            prompt(window.location.hostname);
             // On demande le pseudo, on l'envoie au serveur et on l'affiche dans le titre
             var pseudo = prompt('Quel est votre pseudo ?');
             socket.emit('nouveau_client', pseudo);
